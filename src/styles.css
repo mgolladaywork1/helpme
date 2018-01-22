@@ -3,8 +3,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
     margin: 2;
 }
-
-
+ 
 .basic-container {
     padding: 5px;
 }  
@@ -22,3 +21,8 @@ body {
 .material-card.md-center { align-self: center; }
 .material-card.purple100 {color: rgba(138, 38, 138, 0.856)};
 .material-card.greenapple { color: rgb(165, 228, 167)}
+
+mat-grid-tile {
+    background: rgb(225, 232, 235);
+    padding: 3;
+  }

@@ -2,31 +2,7 @@
 
 <router-outlet></router-outlet>
 
-<div>
-  <ul *ngFor="let sample of demoSamples">
-    <li>
-      <input type="button" value={{sample.search}} title={{sample.search}} />
-      <p>
-        {{sample.description}}
-      </p>        
-    </li>
-    <mat-divider></mat-divider>
-  </ul>
-</div>
 <helpme-introduction></helpme-introduction>
 
 <helpme-chart></helpme-chart>
 <sample-response-001></sample-response-001>
-
-<!-- <ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
--->

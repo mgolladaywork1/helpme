@@ -8,6 +8,6 @@ import { SAMPLES } from './sample/Samples';
 })
 export class AppComponent {
   title = 'HelpMe System';
-  demoSamples = SAMPLES;
+  //demoSamples = SAMPLES;
 
 }
