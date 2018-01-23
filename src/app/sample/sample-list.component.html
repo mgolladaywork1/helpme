@@ -4,7 +4,8 @@
         <ul *ngFor="let sample of demoSamples" style="list-style: none;">
           <li>
             <mat-grid-tile role="listitem">
-                <button mat-raised-button class="material-button red001">{{sample.search}}</button>
+                <button mat-raised-button class="material-button red001"
+                        (click)="openHelpMeDialog()">{{sample.search}}</button>
             </mat-grid-tile>  
             <mat-grid-tile colspan="3" role="listitem">
                 <p class="basic-container">

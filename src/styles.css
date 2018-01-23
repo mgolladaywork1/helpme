@@ -26,3 +26,23 @@ mat-grid-tile {
     background: rgb(225, 232, 235);
     padding: 3;
   }
+
+.mat-input.blue {
+    background: rgb(225, 232, 235);
+    height: 75px;
+  }
+  
+
+.material-card.w400 {
+    width: 400px;
+    height: 300px;
+  } 
+.material-card.w800 {
+    width: 800px;
+    height: 600px;
+  }   
+  
+.material-card.w1000 {
+    width: 1000px;
+    height: 700px;
+}      

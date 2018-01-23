@@ -1,0 +1,13 @@
+<form [formGroup]="form" (ngSubmit)="submit(form)">
+<h3 mat-dialog-title>Help Me Dialog</h3>
+<h4 mat-dialog-subtitle>Enter Your Question and press [Help Me!]</h4>
+<mat-dialog-content>
+    <mat-form-field>
+        <input matInput formControlName="filename" placeholder="Enter filename" class="mat-input blue">
+    </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button type="submit" class="material-button red001">HelpMe!</button>
+    <button mat-button type="button" mat-dialog-close class="material-button red001">Close</button>
+</mat-dialog-actions>
+</form>
