@@ -19,7 +19,19 @@
             <i class="material-icons">comment</i>
     </li>
 </ul>
-
+<div class="wrap">
+        <div>
+          <button mat-fab class="material-button red001">
+              <mat-icon (click)="gotoPrevious()">skip_previous</mat-icon>
+          </button>
+        </div>
+        <div>
+          <button mat-fab class="material-button red001">
+              <mat-icon (click)="gotoNext()">skip_next</mat-icon>
+          </button>
+        </div>
+  </div>
+  
 <!--
 <mat-card>
   

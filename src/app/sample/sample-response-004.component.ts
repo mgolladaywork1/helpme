@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 /**
  * @title Basic expansion panel
@@ -9,4 +10,14 @@ import {Component} from '@angular/core';
 })
 export class SampleResponse004Component {
   panelOpenState: boolean = false;
+
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) {}
+
+  goSamplelist() {
+    this.router.navigate(['/samplelist']);
+  } 
+
 }

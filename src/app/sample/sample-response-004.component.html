@@ -20,47 +20,47 @@ Currently I am {{panelOpenState ? 'open' : 'closed'}}
 (closed)="panelOpenState = false">
 <mat-expansion-panel-header>
 <mat-panel-title>
-2017-Oct. 5, Garden Grove - Food Safety Seminar
+California's New Law Prop. 63 - Takes Effect January 1, 2018
 </mat-panel-title>
 </mat-expansion-panel-header>
-<p>Will show detail regarding the Food Safety Seminar</p>
+<p>...</p>
 </mat-expansion-panel>
 
 <mat-expansion-panel (opened)="panelOpenState = true"
 (closed)="panelOpenState = false">
 <mat-expansion-panel-header>
 <mat-panel-title>
-Retail Food Inspection Guide
+Orange County Superior Court send Minutes-Order with this new law to OC Probation Department
 </mat-panel-title>
 </mat-expansion-panel-header>
-<p>Will show content of Retail Food Inspection Guide</p>
+<p>With a special Docket Code [PBRPT3]</p>
 </mat-expansion-panel>
 
 <mat-expansion-panel (opened)="panelOpenState = true"
 (closed)="panelOpenState = false">
 <mat-expansion-panel-header>
 <mat-panel-title>
-California Retail Food Code
+Orange County Probation Department officers help prepare documents and may go to remove weapons own from a felon.
 </mat-panel-title>
 </mat-expansion-panel-header>
-<p>Will show link to California Retail Food Code</p>
+<p>...</p>
 </mat-expansion-panel>
 
 <mat-expansion-panel (opened)="panelOpenState = true"
 (closed)="panelOpenState = false">
 <mat-expansion-panel-header>
 <mat-panel-title>
-Federal Bill Emerson Good Samaritan Food Donation
+There are estimated ### people would be effected.
 </mat-panel-title>
 </mat-expansion-panel-header>
-<p>Will show link to more detail on the Federal Bill</p>
+<p>...</p>
 </mat-expansion-panel>
 
 <mat-expansion-panel (opened)="panelOpenState = true"
 (closed)="panelOpenState = false">
 <mat-expansion-panel-header>
 <mat-panel-title>
-Health Department Contact
+Probation Contact
 </mat-panel-title>
 </mat-expansion-panel-header>
 <p>Name One</p>
@@ -71,13 +71,23 @@ Health Department Contact
 (closed)="panelOpenState = false">
 <mat-expansion-panel-header>
 <mat-panel-title>
-Health Department IT Contact
+Court Contact
 </mat-panel-title>
 </mat-expansion-panel-header>
-<p>OCIT</p>
-<p>Application Support</p>
-<p>Operation Support</p>
-<p>Help Desk</p>
+<p>...</p>
+<p>...</p>
+</mat-expansion-panel>
+
+
+<mat-expansion-panel (opened)="panelOpenState = true"
+(closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+Other related departments
+</mat-panel-title>
+</mat-expansion-panel-header>
+<p>...</p>
+<p>...</p>
 </mat-expansion-panel>
 
     <mat-card align="center">
@@ -88,7 +98,8 @@ Health Department IT Contact
       <i class="material-icons md-24">comment</i>
     </mat-card>
   <mat-card align="center">
-    <button mat-raised-button class="material-button red001">Return to Selections</button>
+    <button mat-raised-button class="material-button red001"
+     (click)="goSamplelist()">Return to Selections</button>
   </mat-card>
 
 </mat-card>

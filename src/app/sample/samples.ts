@@ -1,6 +1,6 @@
 import { DemoSample } from './demo-sample';
 export const SAMPLES = [
-        new DemoSample(1, "Parking new HOA", "Where can I park near HOA?"),
+        new DemoSample(1, "Parking near HOA", "Where can I park near HOA?"),
         new DemoSample(2, "Food Safety", "Some one enters 'Food Safety' from iPhone, HelpMe went to Orange County's information and pull out recently a food safety seminar was given in Garden Grove.  Food Safety related law and  where to  contact for further information."),
         new DemoSample(3, "Property Tax", "Ask 'Property Tax', HelpMe went into Orange County's information and pull out Due Dates, Departments, Important info and frequent ask Q&A"),
         new DemoSample(4, "Weapon Control", "A County Supervisor enters 'Weapon Control', HelpMe went into Orange County's information and pull out Prop 63 which was passed in year 2016 and go into effect 2018.  It shows the status of Departments and Agencies on the law and further information on weapon control."),

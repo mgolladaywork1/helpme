@@ -37,7 +37,12 @@ mat-grid-tile {
     width: 400px;
     height: 300px;
   } 
-.material-card.w800 {
+.material-card.w300 {
+    width: 300px;
+    height: 200px;
+} 
+
+  .material-card.w800 {
     width: 800px;
     height: 600px;
   }   
@@ -45,4 +50,19 @@ mat-grid-tile {
 .material-card.w1000 {
     width: 1000px;
     height: 700px;
-}      
+}     
+.material-card.w340 {
+    width: 347px;
+    height: 900px;
+} 
+
+
+.wrap {
+    display: flex;
+    background: white;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .wrap div:nth-child(1) {
+    flex:1;
+  }

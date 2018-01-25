@@ -1,5 +1,5 @@
-<mat-card>
-    <mat-card-title><h2 class="material-card purple100">Help Me Sample Response</h2></mat-card-title>
+<mat-card class="material-card w340">
+    <mat-card-title><h4 class="material-card purple100">Help Me Sample Response</h4></mat-card-title>
 
 <!--
 <mat-expansion-panel (opened)="panelOpenState = true"
@@ -15,6 +15,14 @@ Currently I am {{panelOpenState ? 'open' : 'closed'}}
 <p>I'm visible because I am open</p>
 </mat-expansion-panel>
 -->
+
+<mat-card class="material-card w300">
+    <mat-card-content>
+          <img mat-card-image alt="HelpMe Sample001" src="assets/2017FoodSafety.png">
+    </mat-card-content>
+    <mat-card-footer></mat-card-footer>
+</mat-card>
+
 
 <mat-expansion-panel (opened)="panelOpenState = true"
 (closed)="panelOpenState = false">
@@ -88,7 +96,8 @@ Health Department IT Contact
       <i class="material-icons md-24">comment</i>
     </mat-card>
   <mat-card align="center">
-    <button mat-raised-button class="material-button red001">Return to Selections</button>
+    <button mat-raised-button class="material-button red001"
+      (click)="goSamplelist()">Return to Selections</button>
   </mat-card>
 
 </mat-card>

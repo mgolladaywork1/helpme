@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MatDialogRef } from '@angular/material';
+import { Component, OnInit, Inject } from '@angular/core';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
@@ -13,13 +13,16 @@ export class HelpMeDialogComponent {
 
   constructor(
     private formBuilder: FormBuilder,
-    private dialogRef: MatDialogRef<HelpMeDialogComponent>
+    private dialogRef: MatDialogRef<HelpMeDialogComponent>,
+    @Inject(MAT_DIALOG_DATA) private data
   ) {}
 
   ngOnInit() {
       this.form = this.formBuilder.group({
-          filename: ''
+          filename: this.data? this.data.filename : ''
       })
+      console.log(`data ${JSON.stringify(this.data)}`);
+      console.log(`data search ${this.data.filename}`);
   }
 
   submit(form) {
