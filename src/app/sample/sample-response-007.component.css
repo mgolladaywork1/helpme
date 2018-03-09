@@ -1,0 +1,87 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;    
+}
+
+.flex-item {
+    background: black;
+    padding: 5px;
+    width: 40.5%;
+    margin-top: 10px;
+
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.flex-item img {
+    max-height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .flex-item-white {
+    background: white;
+    padding: 5px;
+    width: 40.5%;
+    margin-top: 10px;
+
+    line-height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+
+.fourthcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .flex-child {
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    position: relative;
+  }
+  
+  .flex-child h2 {
+    position: absolute;
+    display: block;
+    left: 10px;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  }
+  
+  .flex41, .flex42, .flex43, .flex44, .flex45  {
+    background-image: url("http://lorempixel.com/320/280/");
+  }
+
+.material-icons.orange600 { color: #FB8C00; }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

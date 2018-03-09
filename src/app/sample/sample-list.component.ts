@@ -75,6 +75,10 @@ export class SampleListComponent{
             );
     }
 
+    gotoFirstPage() {
+        this.router.navigate(['/'])
+    }
+
     changePosition() {
         this.helpMeDialogRef.updatePosition({ top: '50px', left: '50px' });
     }

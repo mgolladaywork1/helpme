@@ -7,6 +7,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 @Component({
   selector: 'sample-response-007',
   templateUrl: 'sample-response-007.component.html',
+  styleUrls: ['sample-response-007.component.css']
 })
 export class SampleResponse007Component {
   panelOpenState: boolean = false;

@@ -1,5 +1,10 @@
 <mat-card>
-    <h2>"HelpMe System Demo Sample List"</h2>
+    <h2>
+        <img width="25" alt="HelpMe Logo" 
+        src="assets/HelpMeIcon.gif"
+        (click)="gotoFirstPage()" >
+        "HelpMe System Demo Sample List"
+    </h2>
     <mat-grid-list cols="4" rowHeight="4em" role="list">
         <ul *ngFor="let sample of demoSamples" style="list-style: none;">
           <li>

@@ -7,7 +7,7 @@ export const SAMPLES = [
         new DemoSample(5, "Word Templates", "A Probation officer working remote from home in the weekend.  Having problem with using Word Templates due to Network issue."),
         new DemoSample(6, "Road Closed", "Example of Canyon Fire road closed..."),
         new DemoSample(7, "Red Tape", "Turn Red Tape into Red Carpet - IT Innovations"),
-        new DemoSample(8, "Homeless", "Help Me will show the mose"),
+        new DemoSample(8, "Homeless", "Help Me will show the most recent programs and activities that the County is doing to help the Homeless, protect normal residents and environments"),
         new DemoSample(9, "...Additional Questions...", "HelpMe..."),
         new DemoSample(10, "New Kid on the block", "If you are newly assign to work on Probation department's application, won't you like to have Help Me to give you quick hints for a quick and good start?")
       ];
